@@ -27,4 +27,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(path: ':latte-ec')
     annotationProcessor project(path: ':latte-compiler')
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+
 }
