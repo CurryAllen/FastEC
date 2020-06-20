@@ -1,6 +1,6 @@
 package com.diabin.fastec.latte_ec;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import static org.junit.Assert.*;
 
